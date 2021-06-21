@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RouteCalculator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RouteCalculator_jar</output-path>
+    <root id="archive" name="RouteCalculator.jar">
+      <element id="module-output" name="RouteCalculator" />
+    </root>
+  </artifact>
+</component>
