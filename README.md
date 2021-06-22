@@ -9,12 +9,6 @@ The route need not be the shortest. Also assume that the product to fulfill the
 order is picked from a single warehouse (so there is no need to merge product
 from multiple locations). Assume that all quantities will be natural numbers.
 
-As an example,
-
-And an order to deliver 5 carrots to Fornost, then a valid answer would be:
-
-   Hobbiton → Bree → Fornost → Delivery
-
 The program should be a command line application that accepts two arguments, the
 first a JSON file describing the network and the second a JSON file describing
 the order. Examples of both are included.
