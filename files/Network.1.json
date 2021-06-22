@@ -1,0 +1,55 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "name": "Hobbiton",
+            "deliversTo": [
+                "Hobbiton",
+                "Buckland",
+                "Far Downs"
+            ],
+            "inventory": [
+                { "commodity": "Carrots", "quantity": 100 },
+                { "commodity": "Cabbages", "quantity": 20 }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Bree",
+            "deliversTo": [
+                "Bree"
+            ],
+            "inventory": [
+                { "commodity": "Ginger Ale", "quantity": 7 }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Fornost",
+            "deliversTo": ["Fornost"],
+            "inventory": []
+        },
+        {
+            "id": 4,
+            "name": "Rivendell",
+            "deliversTo": ["Rivendell", "Trollshaws"],
+            "inventory": [
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Tharbad",
+            "deliversTo": ["Tharbad", "Ost-in-edhil"],
+            "inventory": [
+                {"commodity": "Cloaks", "quantity": 100}
+            ]
+        }
+    ],
+    "connections": [
+        { "from": 1, "to": 2 },
+        { "from": 2, "to": 3 },
+        { "from": 2, "to": 1 },
+        { "from": 5, "to": 4 },
+        { "from": 4, "to": 2 }
+    ]
+}

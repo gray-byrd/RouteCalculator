@@ -1,0 +1,7 @@
+{
+    "to": "Fornost",
+    "items": [
+        { "commodity": "Carrots", "quantity": 5 },
+        { "commodity": "Ginger Ale", "quantity": 1 }
+    ]
+}

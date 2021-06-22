@@ -1,0 +1,37 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "name": "Hobbiton",
+            "deliversTo": [
+                "Hobbiton",
+                "Buckland",
+                "Far Downs"
+            ],
+            "inventory": [
+                { "commodity": "Carrots", "quantity": 100 },
+                { "commodity": "Cabbages", "quantity": 20 }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Bree",
+            "deliversTo": [
+                "Bree"
+            ],
+            "inventory": [
+                { "commodity": "Ginger Ale", "quantity": 7 }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Fornost",
+            "deliversTo": ["Fornost"],
+            "inventory": []
+        }
+    ],
+    "connections": [
+        { "from": 1, "to": 2 },
+        { "from": 2, "to": 3 }
+    ]
+}

@@ -1,4 +1,4 @@
-package com.gray.demo.routecalculator;
+package com.gray.demo.routecalculator.dto;
 
 import com.google.gson.annotations.SerializedName;
 import lombok.Data;
