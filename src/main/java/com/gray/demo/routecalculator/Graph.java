@@ -26,8 +26,7 @@ class Graph {
             StringBuilder route = new StringBuilder();
             Node currentNode = endNode;
             while (!currentNode.equals(startNode)) {
-                route.insert(0, currentNode.getName());
-                route.insert(0, " -> ");
+                route.insert(0, " -> " + currentNode.getName());
                 currentNode = currentNode.getPreviousNeighbor();
             }
             return route.insert(0, startNode.getName()).toString();
